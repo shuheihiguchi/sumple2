@@ -807,6 +807,7 @@ p {
 }
 .service-media-thumbnail.black {
     border-color: #000;
+}
 
 
 .site-footer {
@@ -929,4 +930,35 @@ address {
     color: #fff;
     font-size: 12px;
 }
+
+
+ .hover-opacity:hover {
+    transition: opacity .2s;
+    opacity: .7;
+  }
+
+  .hover-scale:hover {
+    transition: transform .2s;
+  }
+
+  a:hover .hover-scale {
+    transform: scale(1.1);
+  }
+
+  .service-media:hover .hover-scale {
+    transform: scale(1.05);
+  }
+
+  .hover-text-color {
+    transition: .2s;
+  }
+
+  a:hover .hover-text-color, .hover-text-color:hover {
+    color: #F79314;
+  }
+
+  a.link-button {
+    color: #FFFFFF;
+  }
+
 
